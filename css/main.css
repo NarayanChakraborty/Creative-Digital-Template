@@ -287,8 +287,11 @@ hr {
 #blog-section .blog-section-header img{
     position:relative;
 }
+.blog-item{
+    margin:0 3%;
+}
 .blog-item img{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .blog-item a{
     font-size: 18px;

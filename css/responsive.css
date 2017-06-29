@@ -1,0 +1,246 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+	
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+		width: 712px;
+		padding: 48px 28px 60px;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+    #header-id .slider-content p {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0px 0;
+        letter-spacing: 10px;
+    }
+        #header-id .slider-content h1 {
+
+        font-size: 40px;
+        line-height: 60px;
+
+    }
+    .navbar-toggle {
+    background-color:transparent;
+    }
+    .navbar-header i{
+	font-size: 150%;
+	line-height: 90%;
+	padding: 0;
+	margin-top: 50%;
+        color:#fff;
+    }
+    #header-id .menu ul li a {
+        font-size: 16px;
+    }
+    #header-id .menu ul li a::after {
+	
+	height: 2px;
+	top: 40px;
+	left: 11px;
+	
+    }
+     #header-id .navbar .navbar-brand img {
+	   margin: 0%;
+      width: 55px;
+      height: 50px;
+
+      }
+    #header-id .icon{
+        margin-left:25%;
+    }
+    #header-id .icon ul li {
+        display: inline-block;
+    }
+    #header-id .icon ul li a {
+	font-size: 18px;
+     }
+    hr{
+        margin:0;
+    }
+    
+    #feature-section .feature-section-header h2 {
+	font-size: 18px;
+	line-height: 20px;
+	margin-left: 0%;
+	margin-top: 18%;
+     }
+    
+    
+    #blog-section .blog-section-header h2 {
+        font-size: 25px;
+        line-height: 45px;
+        margin-left: 21%;
+        margin-top: 12%;
+    }
+    #blog-section .blog-section-header h3 {
+	font-size: 16px;
+	line-height: 25px;
+    }
+    .blog-item img {
+	margin-bottom: 5%;
+	height: 50%;
+    }
+    
+    .blog-item a {
+	font-size: 12px;
+	 line-height: 0; 
+	  text-transform:none; 
+	 margin-bottom: 0%; 
+	
+     }
+  .quick-action-icon i {
+	font-size: 100px;
+	margin-left: 25%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+     }
+    .quick-action-post p {
+	padding: 2% 5%;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+   }
+    #keyfeature-section .left {
+	margin: 15% 5% 5% 8%;
+     }
+    #feature-section .feature-section-header img , #message-section .message-section-header img, #blog-section .blog-section-header img, #team-section .team-section-header img {
+	height: 120px;
+    }
+    
+    .right img{
+        height: 350px;
+       margin: 0 auto;
+
+    }
+    
+    #team-section .team-section-header h2 {
+	font-size: 30px;
+	margin-left: 21%;
+	margin-top: 12%;
+	
+    }
+    
+    #team-section .team-section-header h3 {
+	font-size: 20px;
+	line-height: 30px;
+    } 
+    .team-img{
+        margin:0;
+    }
+    .team_details{
+        padding: 0;
+        width:95%;
+    }
+    .team_details a {
+    font-size: 8px;
+	line-height: 8px;
+
+       }
+    .team_details p {
+    font-size: 7px;
+	line-height: 7px;
+
+       }
+    .single_team:hover .team_content {
+	top: 35%;
+   }
+  #message-section .message-section-header h2 {
+	font-size: 12px;
+	margin-left: 3%;
+	margin-top: 15%;
+	line-height: 30px;
+  }
+    .contact-form input {
+	margin-bottom: 5%;
+    }
+    
+    .contact-form .btn {
+	background-color: #11749e;
+	color: #fff;
+	padding: 2% 7%;
+	margin-left: 35%;
+	font-size: 17px;
+	line-height: 21px;
+	border-radius: 0;
+    }
+   .copy-right p {
+	line-height: 5px;
+	margin-top: 8%;
+	margin-left: 3%;
+   }
+    
+    .design-by img {
+	margin:0 20% 0 0;
+    }
+    
+    
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		width: 436px;
+		padding: 36px 22px 48px;
+	}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}

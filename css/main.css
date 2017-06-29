@@ -322,3 +322,41 @@ hr {
 	line-height: 24px;
 }
 /* ==========================Quick Action Section CSS  End=================================*/
+/* ==========================Key Feature Section CSS  End=================================*/
+#keyfeature-section{
+     background-image: url(../img/key-features/background-image.jpg);
+     padding:6% 0;
+}
+#keyfeature-section .left {
+	margin: 20% 24% 5% 0;
+}
+#keyfeature-section .left h2{
+    font-size: 25px;
+    line-height: 36px;
+     margin-bottom: 5%;
+    color:#fff;
+}
+#keyfeature-section .left p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10%;
+    color:#fff;
+}
+#keyfeature-section .left #one{
+    width:80%;
+}
+#keyfeature-section .left #two{
+    width:90%;
+}
+
+#keyfeature-section .left h3{
+    font-size: 15px;
+    line-height: 24px;
+    background-color:#11749e;
+    color:#fff;
+    padding:2%;
+}
+#keyfeature-section .right{
+    margin-left:10%;
+}
+/* ==========================Key Feature Section CSS  End=================================*/

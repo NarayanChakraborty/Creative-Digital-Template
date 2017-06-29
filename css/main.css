@@ -470,5 +470,58 @@ hr {
 }
 */
 /* ==========================Our Team Section CSS  End=================================*/
+/* ==========================Message Section CSS  Starts=================================*/
+#message-section{
+    padding-bottom: 6%;
+    background:url('../img/message-background.jpg')
+}
 
-
+.message-section-header {
+	margin: 10% 0;
+}
+#message-section .message-section-header h2 {
+	position: absolute;
+	font-size: 30px;
+	line-height: 24px;
+	margin-top: 10%;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 10%;
+}
+#message-section .message-section-header img{
+    position:relative;
+}
+.contact-form input{
+    background-color:transparent;
+    border-radius: 0;
+}
+.contact-form textarea{
+    background-color:transparent;
+    border-radius: 0;
+}
+.contact-form .btn{
+    background-color:#11749e;
+    color:#fff;
+    padding:4% 10%;
+    margin-left: 25%;
+        font-size:24px;
+      line-height: 24px;
+    border-radius: 0;
+}
+/* ==========================Message Section CSS  End=================================*/
+/* ==========================Google Map Section CSS  Starts=================================*/
+/* ==========================Google Map Section CSS  End=================================*/
+/* ==========================Footer Map Section CSS  Starts=================================*/
+#footer-id{
+    background-color:#222222;
+}
+.copy-right p{
+    font-size: 13px;
+    line-height: 36px;
+    color:#fff;
+    margin-top:5%;
+}
+.design-by img{
+    margin:15% 0;
+}
+/* ==========================Footer Map Section CSS  End=================================*/

@@ -260,3 +260,49 @@ hr {
     color:#222222;
 }
 /* ==========================Agency News CSS Section End=================================*/
+/* ==========================Blog Section CSS  End=================================*/
+#blog-section{
+    padding-bottom: 6%;
+}
+
+.blog-section-header {
+	margin: 10% 0;
+}
+#blog-section .blog-section-header h2 {
+	position: absolute;
+	display: block;
+	font-size: 37px;
+	line-height: 45px;
+	margin-left: 34%;
+	margin-top: 10%;
+	color: #000;
+    text-transform: uppercase;
+}
+#blog-section .blog-section-header h3 {
+
+	font-size: 30px;
+	line-height: 37px;
+
+}
+#blog-section .blog-section-header img{
+    position:relative;
+}
+.blog-item img{
+    margin-bottom: 15%;
+}
+.blog-item a{
+    font-size: 18px;
+	line-height: 36px;
+    color:#11749e;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+.blog-item p{
+     font-size: 14px;
+	line-height: 24px;
+    color:#222222;
+    text-align: justify;
+    margin-top: 5%;
+}
+/* ==========================Blog Section CSS  End=================================*/

@@ -232,3 +232,31 @@ hr {
     text-align: justify;
 }
 /* ==========================Feature CSS Section End=================================*/
+/* ==========================Agency News CSS Section Start=================================*/
+.agency-news-post {
+	padding: 6.03% 6% 20.5% 6%;
+	background-color: #222222;
+	color: #d4d4d4;
+}
+.agency-news-image {
+	padding: ;
+}
+.agency-news-post h2{
+	font-size: 25px;
+    margin-top:2%;
+    margin-bottom: 3%;
+}
+.date-topic{
+	font-size: 13px;
+    line-height:24px;
+}
+.agency-news-post p{
+	font-size: 15px;
+    line-height: 24px;
+}
+
+.agency-news-post:hover{
+    background-color:#f3f3f3;
+    color:#222222;
+}
+/* ==========================Agency News CSS Section End=================================*/

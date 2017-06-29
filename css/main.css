@@ -1,22 +1,234 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Name:Creative Digital Agencies HTML Template
+   Name: Sree Narayan Chakraborty
+   Author Url:narayanchakraborty1993@gmail.com
+   Version:1.0
    ========================================================================== */
+  
+  
+/* ==========================================================================
+   1:Basic CSS Section
+   2:header CSS Section
+   3:Service CSS Section
+   4:Portfolio CSS Section
+   5:Feature CSS Section
+   6:Video CSS Section
+   7:Skill CSS Section
+   8:Team CSS Section
+   9:Client Section 
+   10:blog Section
+   11:Sub-Footer Section
+   12:Footer Section
+   ========================================================================== */   
+/* ==========================1:Basic CSS Section=================================*/
+.no-padding{
+    padding:0;
+}
+.no-margin{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style:none;
+}
+p{
+    font-family: ;
+    
+}
 
 
 
+/* ==========================Basic CSS Section End=================================*/
+/* ==========================2:Header CSS Section=================================*/
+.icon-bar{
+    color:#fff;
+}
+#header-id {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#header-id .navbar .navbar-brand img {
+	margin: 22% 0 0 20%;
+}
+#header-id .menu {
+	padding: 5% 0px 0px 20%;
+}
+#header-id .menu ul li {
+    margin: 0 10px;
+}
+#header-id .menu ul li a {
+color: #fff;
+transition: 0.5s;
+text-decoration: none;
+font-size: 18px;
+position: relative;
+    
+
+}
+
+#header-id .icon ul li a{
+    color:#fff;
+    font-size:20px;
+}
+#header-id .menu ul li a:hover,#header-id .icon ul li a:hover {
+    background-color: unset;
+    
+}
+#header-id .menu ul li a::after {
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: calc(100%);
+	background-color: #11749e;
+	top: 69px;
+	left: 0;
+	opacity: 0;
+	transition: 0.8s;
+}
+#header-id .menu ul li a:hover:after{
+    opacity:1;
+}
+hr {
+    display: block;
+   
+    border-style: inset;
+   
+}
 
 
 
+#header-id .slider-content {
+    margin: 10% 0;
+}
+#header-id .slider-content h1 {
+    color: #fff;
+    font-size: 140px;
+    line-height: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: -50px;
+}
+#header-id .slider-content p {
+	color: #fff;
+	font-size: 24px;
+	line-height: 51px;
+	le text-transform: capitalize;
+	margin: 35px 0;
+	letter-spacing: 15px;
+}
+#header-id .slider-content a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    background-color:transparent;
+  
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+   transition: opacity .5s;
+   touch-action: manipulation;
+}
+#header-id .slider-content h4 {
+    color: #fff;
+    font-size: 13px;
+    line-height: 22px;
 
 
+   
+}
 
 
+/*
+.scroll-icon{
+	height: 60px;
+	width: 60px;
+	border: 2px solid#fff;
+	border-radius: 50%;
+	margin: 0% auto;
+	transition: 0.5s;
 
+}
+*/
 
+.scroll-icon{
+      
 
+    transition: 0.5s;
+}
+.scroll-icon i{
+      
+    font-size: 50px;
+    color: #fff;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.5s;
+}
 
+/* ==========================Header CSS Section End=================================*/
+/* ==========================Feature CSS Section Start=================================*/
+#feature-section{
+    background-color: #11749e;
+ 
+}
+#feature-section{
+    padding-bottom: 7%;
+}
 
-
-
+.feature-section-header {
+	margin: 10% 0;
+}
+#feature-section .feature-section-header h2 {
+	position: absolute;
+	display: block;
+	font-size: 37px;
+	line-height: 45px;
+	margin-left: 17%;
+	margin-top: 10%;
+	color: #fff;
+    text-transform: uppercase;
+}
+#feature-section .feature-section-header img{
+    position:relative;
+}
+.feature-item{
+       overflow: hidden;
+}
+.feature-item i {
+	margin: 10px 15px;
+	font-size: 45px;
+	border: 1px solid #2e85aa;
+	border-radius: 50%;
+	line-height: 80px;
+	padding: 0px;
+	height: 80px;
+	width: 80px;
+	color: #fff;
+	background-color: #2e85aa;
+}
+.feature-item h2{
+    font-size: 18px;
+	line-height: 36px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.feature-item p{
+     font-size: 14px;
+	line-height: 24px;
+    color:#fff;
+    text-align: justify;
+}
+/* ==========================Feature CSS Section End=================================*/
